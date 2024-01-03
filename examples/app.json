@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/card/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Lin UI",
+    "navigationBarTextStyle": "black"
+  },
+  "subPackages": [
+  ],
+  "usingComponents": {
+  },
+  "sitemapLocation": "sitemap.json"
+}
