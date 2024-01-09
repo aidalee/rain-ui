@@ -1,1 +1,4 @@
-.pg-card {}
+.pg-card {
+  padding: 20rpx 0;
+  box-sizing: border-box;
+}

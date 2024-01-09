@@ -1,1 +1,23 @@
-<view class="co-card">asdasdsd</view>
+<view class="rain-card {{extClass}}">
+  <block wx:if="{{useSlot}}">
+    <slot></slot>
+  </block>
+  <block wx:else>
+    <view wx:if="{{left}}">
+      <slot name="left"></slot>
+    </view>
+    <view class="rain-card-content" wx:if="{{customContent}}">
+      <slot name="customContent"></slot>
+    </view>
+    <view class="rain-card-content" wx:else>
+      <view class="rain-card-main-title">{{title}}</view>
+      <view class="rain-card-sub-title">{{subTitle}}</view>
+    </view>
+    <view wx:if="{{right}}">
+      <view wx:if="{{rightArrow}}">
+        <van-icon name="arrow" />
+      </view>
+      <view wx:if="{{rightBtn}}">{{rightBtnText}}</view>
+    </view>
+  </block>
+</view>
