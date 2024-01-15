@@ -1,0 +1,1 @@
+.rain-button.rain-button-primary{background:linear-gradient(to right,#fec61b,#f18d00);color:#fff}.rain-button.rain-button-plain{background:0 0;border:1rpx solid #f18d00;color:#f18d00}.rain-button.van-button--active::before{opacity:0}

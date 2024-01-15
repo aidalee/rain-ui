@@ -1,1 +1,1 @@
-.rain-card{width:750rpx;background-color:#fff;border-radius:20rpx;padding:32rpx 28rpx;box-sizing:border-box}
+.rain-card{background-color:#fff;padding:32rpx 28rpx;box-sizing:border-box;color:#292929}

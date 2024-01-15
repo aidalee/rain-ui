@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "rain-card": "/dist/card/index"
+    "rain-card": "/dist/card/index",
+    "rain-button": "/dist/button/index"
   }
 }

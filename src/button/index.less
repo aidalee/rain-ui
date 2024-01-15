@@ -1,0 +1,17 @@
+.rain-button {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  &.rain-button-primary {
+    background: linear-gradient(to right, #FEC61B, #F18D00);
+    color: #fff;
+  }
+  &.rain-button-plain {
+    background: transparent;
+    border: 1rpx solid #F18D00;
+    color: #F18D00;
+  }
+  &.van-button--active::before {
+    opacity: 0;
+  }
+}

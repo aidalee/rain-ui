@@ -1,0 +1,3 @@
+<van-button icon="{{icon}}" custom-style="width: {{width}}rpx; height: {{height}}rpx; border-radius: {{radius}}rpx; font-size: {{fontSize}}; font-weight: {{fontWeight}}" custom-class="rain-button {{customClass}} {{disabled?'disabled':''}} {{type == 'primary' ? 'rain-button-primary':'rain-button-plain'}}" disabled="{{disabled}}">
+  <slot />
+</van-button>

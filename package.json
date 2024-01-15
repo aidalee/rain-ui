@@ -51,5 +51,7 @@
     "lodash": "^4.17.15",
     "miniprogram-simulate": "^1.0.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@vant/weapp": "^1.11.2"
+  }
 }
