@@ -1,0 +1,15 @@
+.DS_Store
+
+# dependencies 
+/node_modules
+/miniprogram_npm
+/package-lock.json
+/project.private.config.json
+# /project.config.json
+/yarn.lock
+/yarn-error.log
+
+# misc
+.DS_Store
+/.history
+
