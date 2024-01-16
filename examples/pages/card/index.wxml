@@ -1,7 +1,7 @@
 <view class="pg-card">
-  <rain-card width="{{634}}">
-    自定义卡片
+  <rain-card title="测试标题" value="yu798978" inline-desc="描述秒速" custom-class="custom-card-class" width="{{634}}">
   </rain-card>
   <rain-button custom-class="custom-button-class">测试按钮</rain-button>
   <rain-button type="plain">测试按钮</rain-button>
+  <rain-button type="cancel">测试按钮</rain-button>
 </view>

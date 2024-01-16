@@ -1,3 +1,20 @@
-<view style="width: {{width}}rpx; border-radius: {{radius}}rpx;" class="rain-card {{customClass}}">
-  <slot></slot>
+<view style="width: {{width}}rpx; border-radius: {{radius}}rpx;" class="rain-card custom-class">
+  <block wx:if="{{useSlot}}">
+    <slot></slot>
+  </block>
+  <block wx:else>
+    <view class="">
+      <view class="rain-card__header">
+        <text class="rain-card__header-title">{{title}}</text>
+        <text class="rain-card__header-value">{{value}}</text>
+      </view>
+      <view class="rain-card__body">
+        <block wx:if="{{useInlineDescSlot}}">
+          <slot name="desc"></slot>
+        </block>
+        <text wx:else class="rain-card__body-desc">{{inlineDesc}}</text>
+      </view>
+      <view class="rain-card__footer"></view>
+    </view>
+  </block>
 </view>

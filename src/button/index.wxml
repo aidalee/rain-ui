@@ -1,3 +1,8 @@
-<van-button icon="{{icon}}" custom-style="width: {{width}}rpx; height: {{height}}rpx; border-radius: {{radius}}rpx; font-size: {{fontSize}}; font-weight: {{fontWeight}}" custom-class="rain-button {{customClass}} {{disabled?'disabled':''}} {{type == 'primary' ? 'rain-button-primary':'rain-button-plain'}}" disabled="{{disabled}}">
+<van-button
+  icon="{{icon}}"
+  custom-style="width: {{width}}rpx; height: {{height}}rpx; border-radius: {{radius}}rpx; font-size: {{fontSize}}; font-weight: {{fontWeight}}"
+  custom-class="rain-button {{customClass}} {{disabled?'disabled':''}} {{type == 'primary' ? 'rain-button-primary':''}} {{type == 'plain' ? 'rain-button-plain':''}} {{type == 'cancel' ? 'rain-button-cancel':''}}"
+  disabled="{{disabled}}"
+>
   <slot />
 </van-button>

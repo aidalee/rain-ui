@@ -1,1 +1,1 @@
-.rain-card{background-color:#fff;padding:32rpx 28rpx;box-sizing:border-box;color:#292929}
+.rain-card{background-color:#fff;padding:32rpx 28rpx;box-sizing:border-box}.rain-card .rain-card__header{display:flex;justify-content:space-between}.rain-card .rain-card__header .rain-card__header-title{color:#292929;font-size:28rpx;font-weight:500}.rain-card .rain-card__header .rain-card__header-value{color:#0a1629;font-size:28rpx}.rain-card .rain-card__body{color:#686b73;font-size:24rpx}
